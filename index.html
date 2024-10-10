@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="post">
+        <div><label for="name">Name of the Applicant</label><br>
+        <input type="text" id="name" name="name" placeholder="first name">
+        <input type="text" id="name" name="name" placeholder="last name"> </div>
+
+        <div>
+            <label for="dateOfBirth">Date of Birth</label><br>
+            <input type="date" id="dateOfBirth" name="date">
+        </div>
+
+        <div>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="email"> Email</label><br>
+            <input type="email"  id="email" required>
+
+        </div>
+
+        <div>
+            <label for="number">Mobile number</label><br>
+            <input type="text" id="number">
+        </div>
+
+        <div>
+            <label for="city">City</label><br>
+            <select name="mycity" id="city">
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="Quetta">Quetta</option>
+                <option value="multan">Multan</option>
+            </select>
+        </div>
+         <div>
+            <h3>Which course you want to enroll:</h3>
+            <input type="checkbox" id="course1" name="Course" value="HTML">
+            <label for="course1">HTML</label>
+            <input type="checkbox" id="course2" name="Course" value="CSS">
+            <label for="course2">CSS</label>
+            <input type="checkbox" id="course3" name="Course" value="Javascript">
+            <label for="course3">Javascript</label>
+            <input type="checkbox" id="course4" name="Course" value="Python">
+            <label for="course4">Python</label>
+         </div>
+
+         <div>
+            <input type="submit" name="submit">
+         </div>
+
+
+
+
+    </form>
+</body>
+</html>
